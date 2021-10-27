@@ -282,3 +282,10 @@ main {
   text-decoration: none;
   color: #fff;
 }
+
+.container {
+  display: flex;
+  width: 900px;
+  gap: 30px;
+  margin: 0 auto;
+}
