@@ -284,8 +284,10 @@ main {
 }
 
 .container {
+  max-width: 1000px;
+  flex-wrap: wrap;
   display: flex;
-  width: 900px;
-  gap: 30px;
+  justify-content: flex-start;
+  gap: 100px;
   margin: 0 auto;
 }
